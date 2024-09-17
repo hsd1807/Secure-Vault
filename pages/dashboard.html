@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureVault - DashBoard</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <img src="../assets/vault-logo.png" alt="SecureVault Logo" class="logo">
+        <h1>SecureVault DashBoard</h1>
+        <p>Welcome! What would you like to do?</p>
+        <div class="button-container">
+            <button class="button" onclick="location.href='view-passwords.html'">View Passwords</button>
+            <button class="button" onclick="location.href='generate-password.html'">Generate Password</button>
+            <button class="button" onclick="location.href='add-password.html'">Add Password</button>
+            <button class="button" onclick="logout()">Logout</button>
+        </div>
+    </div>
+    <script src="../js/dashboard.js"></script>
+</body>
+</html>

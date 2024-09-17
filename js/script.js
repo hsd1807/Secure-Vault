@@ -6,7 +6,7 @@ document.getElementById('master-password-form').addEventListener('submit', funct
 
     if (masterPassword === 'SecureVault123!') {
         localStorage.setItem('isAuthenticated', 'true');
-        window.location.href = 'pages/main.html';
+        window.location.href = 'pages/dashboard.html';
     } else {
         errorMessage.textContent = 'Incorrect Master Password. Please try again.';  
     }

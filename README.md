@@ -1,9 +1,17 @@
 # SecureVault - A Vault for your PassWords
 
+SecureVault is a secure password management web application that allows users to store, generate, and manage their passwords.
 
-SecureVault is a secure password management web application developed as part of the Web Basics Project. It allows users to store, generate, and manage their passwords in a user-friendly interface.
+<p align="center">
+  <img src="assets/vault-logo.png" alt="SecureVault Logo" width="180"/>
+</p>
 
-![SecureVault Logo](assets/vault-logo.png)
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Getting Started](#getting-started)
+- [Security Note](#security-note)
 
 ## Project Overview
 
@@ -22,6 +30,7 @@ SecureVault is a secure password management web application developed as part of
 - User-friendly dashboard interface
 - Logout functionality for enhanced security
 
+
 ## Screenshots
 
 ### UnLock the Vault
@@ -36,18 +45,19 @@ SecureVault is a secure password management web application developed as part of
 ### Generate Password
 ![Generate Password](assets/generate-password.png)
 
-### Add/Edit Password
-![Add/Edit Password](assets/add-password.png)
+### Add Password
+![Add Password](assets/add-password.png)
 
-## Installation and Usage
+
+## Getting Started
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/securevault.git
+   git clone https://github.com/hsd1807/Secure-Vault
    ```
 2. Navigate to the project directory:
    ```
-   cd securevault
+   cd secure-vault
    ```
 3. Open `index.html` in your web browser to start using SecureVault.
 

@@ -4,7 +4,7 @@ document.getElementById('master-password-form').addEventListener('submit', funct
     const masterPassword = document.getElementById('master-password').value;
     const errorMessage = document.getElementById('error-message');
 
-    if (masterPassword === 'SecureVault123!') {
+    if (masterPassword === 'key') {
         localStorage.setItem('isAuthenticated', 'true');
         window.location.href = 'pages/dashboard.html';
     } else {
